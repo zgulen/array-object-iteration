@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="vote">
+        <p class="param"></p>
+        <button class="vote-btn">Can you vote?</button>
+    </div>
+    <div class="age-counter">
+            <div>
+                <p class="title">Your Name</p>
+                <input type="text" name="date" id="name" placeholder="name" required="required" />
+            </div>
+            <div>
+            <p class="title">Date</p>
+            <input type="number" name="date" id="date" placeholder="Day" required="required" minlength="1" maxlength="2" />
+          </div>
+          <div>
+              <p class="title">Month</p>
+            <input type="number" name="month" id="month" placeholder="Month" required="required" minlength="1" maxlength="2" />
+        </div>
+          <div>
+            <p class="title">Year</p>
+            <input type="number" name="year" id="year" placeholder="Year" required="required" minlength="4" maxlength="4" />
+        </div>
+        <p class="age"></p>
+        <button class="submit" type="button">Click here calculate your age</button>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
